@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EGEPAC</title>
+    <link rel="shortcut icon" href="egepac.JPG" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/606973da2f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <button class="nav-toggle">☰</button>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="Galerie.html">Nos Produits</a></li>
+        <li><a href="egepac/egepac.html">Egepac</a></li>
+        <li>
+          <a href="mailto:egepac224@gmail.com" target="_blank">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header id="accueil">
+      <div class="container">
+        <h1>EGEPAC</h1>
+        <p>Solutions d'emballages biodégradables pour un avenir durable</p>
+      </div>
+    </header>
+    
+
+    <section class="section" id="produits">
+      <div class="container">
+        <h2>Nos Solutions d'Emballage</h2>
+        <div class="products">
+          <div class="product-card">
+            <img src="images/niasse.png" alt="Emballage Alimentaire" />
+            <h3>Emballages Alimentaires</h3>
+            <p>Boîtes et contenants biodégradables pour la restauration</p>
+          </div>
+          <div class="product-card">
+            <img src="images/barra3.png" alt="Emballage E-commerce" />
+            <h3>Solutions E-commerce</h3>
+            <p>Emballages protecteurs et écologiques pour vos envois</p>
+          </div>
+          <div class="product-card">
+            <img src="images/barra3.png" alt="Emballage E-commerce" />
+            <h3>Solutions pour les pharmacies</h3>
+            <p>Emballages protecteurs et écologiques pour vos envois</p>
+          </div>
+          <div class="product-card">
+            <img src="images/barra3.png" alt="Emballage E-commerce" />
+            <h3>Solutions pour les Restaurants</h3>
+            <p>Emballages protecteurs et écologiques pour vos envois</p>
+          </div>
+          <div class="product-card">
+            <img src="images/barra3.png" alt="Emballage E-commerce" />
+            <h3>Packaging Savons</h3>
+            <p>Emballages protecteurs et écologiques pour vos envois</p>
+          </div>
+          <div class="product-card">
+            <img src="images/barra11.jpg" alt="Emballage Luxe" />
+            <h3>Packaging Premium</h3>
+            <p>Emballages personnalisés haut de gamme pour produits de luxe</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <h2>Pourquoi Choisir EGEPAC?</h2>
+        <div class="features">
+          <div class="feature">
+            <h3>100% Biodégradable</h3>
+            <p>Nos emballages se décomposent naturellement en 12 semaines</p>
+          </div>
+          <div class="feature">
+            <h3>Production Locale</h3>
+            <p>Fabrication Guinéenne pour réduire notre empreinte carbone</p>
+          </div>
+          <div class="feature">
+            <h3>Innovation</h3>
+            <p>R&D continue pour des solutions toujours plus écologiques</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2>Contactez-nous</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Nom et Prenom" />
+          <input type="email" placeholder="Email" />
+          <input type="number" placeholder="Numero" />
+          <textarea rows="5" placeholder="Message"></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="icon">
+        <a href="https://wa.me/+224620176017" target="_blank">
+          <i class="fa-brands fa-whatsapp" style="color: #ffffff"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/share/GoRqfggiCA8g4aXP/?mibextid=LQQJ4d"
+          target="_blank"
+        >
+          <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-x-twitter" style="color: #ffffff"></i>
+          <i class="fa-brands fa-square-instagram" style="color: #ffffff"></i>
+        </a>
+      </div>
+
+      <div class="container">
+        <p>
+          Contact :
+          <a href="mailto:egepac224@gmail.com">egepac224@gmail.com </a><br />
+          | Tél : +224 620 17 60 17
+        </p>
+        <p>© 2024 EGEPAC - Tous droits réservés</p>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .querySelector(".nav-toggle")
+        .addEventListener("click", function () {
+          document.querySelector("nav ul").classList.toggle("active");
+        });
+
+      // Fermer le menu mobile lors du clic sur un lien
+      document.querySelectorAll("nav a").forEach((link) => {
+        link.addEventListener("click", function () {
+          document.querySelector("nav ul").classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html>
