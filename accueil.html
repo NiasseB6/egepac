@@ -16,8 +16,13 @@
       <button class="nav-toggle">☰</button>
       <ul>
         <li><a href="#accueil">Accueil</a></li>
-        <li><a href="Galerie.html">Nos Produits</a></li>
+        <li><a href="/galerie/Galerie.html">Nos Produits</a></li>
         <li><a href="egepac/egepac.html">Egepac</a></li>
+        <li>
+          <a href="/galerie/galmages/notre depliant 22.pdf" target="_blank"
+            >Dépliant</a
+          >
+        </li>
         <li>
           <a href="mailto:egepac224@gmail.com" target="_blank">Contact</a>
         </li>
@@ -30,7 +35,6 @@
         <p>Solutions d'emballages biodégradables pour un avenir durable</p>
       </div>
     </header>
-    
 
     <section class="section" id="produits">
       <div class="container">
@@ -38,28 +42,34 @@
         <div class="products">
           <div class="product-card">
             <img src="images/niasse.png" alt="Emballage Alimentaire" />
-            <h3>Emballages Alimentaires</h3>
-            <p>Boîtes et contenants biodégradables pour la restauration</p>
+            <h3>Emballages</h3>
+            <p>Boîtes et contenants biodégradables</p>
           </div>
           <div class="product-card">
-            <img src="images/barra3.png" alt="Emballage E-commerce" />
+            <img
+              src="/galerie/galmages/amsall.jpg"
+              alt="Emballage E-commerce"
+            />
             <h3>Solutions E-commerce</h3>
             <p>Emballages protecteurs et écologiques pour vos envois</p>
           </div>
           <div class="product-card">
-            <img src="images/barra3.png" alt="Emballage E-commerce" />
+            <img
+              src="/galerie/galmages/pochettes-pharmacie-kraft-blanchi-12x5x23cm-par-500_01_800x.jpg.webp"
+              alt="Emballage E-commerce"
+            />
             <h3>Solutions pour les pharmacies</h3>
-            <p>Emballages protecteurs et écologiques pour vos envois</p>
+            <p>Emballages protecteurs et écologiques</p>
           </div>
           <div class="product-card">
-            <img src="images/barra3.png" alt="Emballage E-commerce" />
+            <img src="/images/barra1.png" alt="Emballage E-commerce" />
             <h3>Solutions pour les Restaurants</h3>
-            <p>Emballages protecteurs et écologiques pour vos envois</p>
+            <p>Emballages protecteurs et écologiques pour vos Repas</p>
           </div>
           <div class="product-card">
-            <img src="images/barra3.png" alt="Emballage E-commerce" />
+            <img src="/images/savon.jpeg" alt="Emballage E-commerce" />
             <h3>Packaging Savons</h3>
-            <p>Emballages protecteurs et écologiques pour vos envois</p>
+            <p>Emballages protecteurs et écologiques pour vos Savons</p>
           </div>
           <div class="product-card">
             <img src="images/barra11.jpg" alt="Emballage Luxe" />
@@ -130,19 +140,6 @@
       </div>
     </footer>
 
-    <script>
-      document
-        .querySelector(".nav-toggle")
-        .addEventListener("click", function () {
-          document.querySelector("nav ul").classList.toggle("active");
-        });
-
-      // Fermer le menu mobile lors du clic sur un lien
-      document.querySelectorAll("nav a").forEach((link) => {
-        link.addEventListener("click", function () {
-          document.querySelector("nav ul").classList.remove("active");
-        });
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

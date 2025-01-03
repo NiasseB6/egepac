@@ -26,7 +26,7 @@ body {
 
 /* Navigation styles */
 nav {
-  background: var(--primary-color);
+  background: #5c1511;
   padding: var(--spacing-sm);
   position: fixed;
   width: 100%;
@@ -67,16 +67,14 @@ nav a:hover {
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("niasse2.png");
-    height: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: calc(var(--spacing-lg) * 3) var(--spacing-md);
   margin-top: 60px;
-
 }
-
 
 header h1 {
   font-size: clamp(2rem, 5vw, 4rem);
@@ -89,21 +87,21 @@ header p {
   margin: 0 auto;
 }
 footer {
-  background: #333;
+  background: #5c1511;
   color: white;
   text-align: center;
   padding: var(--spacing-md);
 }
 
-.barra{
+.barra {
   color: #000000;
-   margin-top: 50px;
-   margin: 10px;
-   display: flex;
-    justify-content: center;
-   flex-wrap: wrap;
-  }
-  .presentation{
+  margin-top: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.presentation {
   text-align: center;
   width: 40em;
   margin: 20px;
@@ -111,8 +109,8 @@ footer {
   padding: var(--spacing-md);
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  .presentation:hover{
-    transform: translateY(5px);
-    transition: transform 0.3s ease;
-  }
+}
+.presentation:hover {
+  transform: translateY(5px);
+  transition: transform 0.3s ease;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="/egepac.JPG" type="image/x-icon" />
+    <link rel="stylesheet" href="/galerie/style.css" />
+  </head>
+  <body>
+    <nav>
+      <button class="nav-toggle">☰</button>
+      <ul>
+        <li><a href="/accueil.html">Accueil</a></li>
+        <li><a href="/egepac/egepac.html">Egepac</a></li>
+        <li>
+          <a href="/galerie/galmages/notre depliant 22.pdf" target="_blank"
+            >Dépliant</a
+          >
+        </li>
+        <li>
+          <a href="mailto:egepac224@gmail.com" target="_blank">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="section gallery-section" id="galerie">
+      <div class="container">
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">Tout</button>
+          <button class="filter-btn" data-filter="alimentaire">
+            Alimentaire
+          </button>
+          <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+          <button class="filter-btn" data-filter="Santé">Santé</button>
+          <button class="filter-btn" data-filter="luxe">Luxe</button>
+          <button class="filter-btn" data-filter="industriel">
+            Industriel
+          </button>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item" data-category="luxe">
+            <img src="../images/barra11.jpg" alt="Emballage alimentaire 1" />
+            <div class="gallery-item-overlay">
+              <h4>Emballage premium</h4>
+              <p>Emballage ecoresponsable personalisé biodégradable</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="ecommerce">
+            <img
+              src="/galerie/galmages/noom.jpg"
+              alt="Emballage e-commerce 1"
+            />
+            <div class="gallery-item-overlay">
+              <h4>Pack E-commerce</h4>
+              <p>Solution d'expédition écologique</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="luxe">
+            <img src="/galerie/galmages/amsall.jpg" alt="Emballage luxe 1" />
+            <div class="gallery-item-overlay">
+              <h4>Papier Kraft</h4>
+              <p>Packaging boutiques de Luxe</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="industriel">
+            <img
+              src="/galerie/galmages/egepac1.jpeg"
+              alt="Emballage industriel 1"
+            />
+            <div class="gallery-item-overlay">
+              <h4>Emballages pour vos Mariages</h4>
+              <p>Emballage petit Model</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="alimentaire">
+            <img src="/images/barra1.png" alt="Emballage alimentaire 2" />
+            <div class="gallery-item-overlay">
+              <h4>Emballages petit Modele</h4>
+              <p>Emballage pour restauration rapide</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="Santé">
+            <img
+              src="/galerie/galmages/pochettes-pharmacie-kraft-blanchi-12x5x23cm-par-500_01_800x.jpg.webp"
+              alt="Emballage e-commerce 2"
+            />
+            <div class="gallery-item-overlay">
+              <h4>Emballages pour pharmacies</h4>
+              <p>Protection optimale pour vos envois</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal">
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <img src="" alt="Image agrandie" />
+      </div>
+    </div>
+    <footer>
+      <div class="icon">
+        <a href="https://wa.me/+224620176017" target="_blank">
+          <i class="fa-brands fa-whatsapp" style="color: #ffffff"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/share/GoRqfggiCA8g4aXP/?mibextid=LQQJ4d"
+          target="_blank"
+        >
+          <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-x-twitter" style="color: #ffffff"></i>
+          <i class="fa-brands fa-square-instagram" style="color: #ffffff"></i>
+        </a>
+      </div>
+
+      <div class="container">
+        <p>
+          Contact :
+          <a href="mailto:egepac224@gmail.com">egepac224@gmail.com </a><br />
+          | Tél : +224 620 17 60 17
+        </p>
+        <p>© 2024 EGEPAC - Tous droits réservés</p>
+      </div>
+    </footer>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
